@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head1 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: green;
+    height: 5%;
+    color: black;
+}
+
+.btn {
+    border-radius: 10vw;
+    background-color: blanchedalmond;
+    width: 10%;
+    font-size: 50%;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.box {
+    margin: 10vh 15vw 10vh 15vw;
+    padding: 2vh 5vw 2vh 10vw;
+    font-size: 2rem;
+    border: 1px solid black;
+}
+
+.borderall {
+    border: 1px solid grey;
+    margin: 2%;
+    list-style-type: none;
+}
+
+#box {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+#select {
+    margin: 0.4%;
+    width: 5%;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    padding-top: 3%;
+    margin-right: 10%;
+}
+
+.formControl {
+    width: 15vw;
+    height: 5vh;
+    border-radius: 0.5vw;
+    text-indent: 4%;
+}
+
+.delbtn {
+    margin-left: 90%;
+    background-color: red;
+    color: white;
+    height: 6vh;
+    width: 10%;
+}
